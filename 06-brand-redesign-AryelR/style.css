@@ -1,0 +1,310 @@
+/* colors: 
+red #f01c24
+black #100c0c 
+gray rgb(48, 48, 48)
+*/
+
+body {
+    background-color: rgb(250, 250, 250);
+    margin: 0;
+}
+
+.border {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 100%;
+    padding: 10px;
+    width: 100%;
+    background-color: #100c0c;
+    height: 17px;
+    border-bottom: 5px solid #f01c24;
+    text-align: center;
+    vertical-align: center;
+    z-index: 3;
+}
+
+.header img {
+    float: left;
+    padding-left: 8%;
+}
+
+.headerRight {
+    float: right;
+    color: white;
+    padding-right: 8%;
+}
+
+.headerRight a {
+    width: 60%;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: .6vw;
+}
+
+.headerRight a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.headerRight a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.headerRight a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.section {
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+.fullPageImage {
+    width: 100%;
+    border-radius: 10px;
+    border: 4px solid rgb(48, 48, 48);
+    box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, .2);
+    transition: .2s ease-out;
+}
+
+.fullPageImage:hover {
+    transition: .2s ease-in;
+    transform: scale(1.01);
+}
+
+.imageHalf {
+    position: relative;
+    float: left;
+    width: 48%;
+    padding: 1%;
+    transition: .2s ease-out;
+}
+
+
+/* fix from https://www.w3schools.com/howto/howto_css_images_side_by_side.asp */
+
+.halves::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imageHalf span {
+    color: white;
+    position: absolute;
+    bottom: 8%;
+    right: 3%;
+    font-size: 2.4vw;
+}
+
+.imageHalf img {
+    border-radius: 10px;
+    border: 4px solid rgb(48, 48, 48);
+    box-shadow: 0 .5vw 1vw 0 rgba(0, 0, 0, .2);
+}
+
+@media only screen and (min-width: 1000px) {
+    .imageThird {
+        position: relative;
+        float: left;
+        width: 30%;
+        padding: 1.6%;
+        transition: .2s ease-out;
+    }
+    .imageThird span {
+        color: white;
+        position: absolute;
+        bottom: 13%;
+        right: 6%;
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (min-device-width: 1000px) {
+    .imageThird {
+        position: relative;
+        float: left;
+        width: 30%;
+        padding: 1.6%;
+        transition: .2s ease-out;
+    }
+    .imageThird span {
+        color: white;
+        position: absolute;
+        bottom: 13%;
+        right: 6%;
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .imageThird {
+        position: relative;
+        float: left;
+        width: 97%;
+        padding: 1.6%;
+        transition: .2s ease-out;
+    }
+    .imageThird span {
+        color: white;
+        position: absolute;
+        bottom: 13%;
+        right: 6%;
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-device-width: 1000px) {
+    .imageThird {
+        position: relative;
+        float: left;
+        width: 97%;
+        padding: 1.6%;
+        transition: .2s ease-out;
+    }
+    .imageThird span {
+        color: white;
+        position: absolute;
+        bottom: 8%;
+        right: 4%;
+        font-size: 3.5vw;
+    }
+}
+
+.thirds::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imageThird:hover,
+.imageHalf:hover,
+.imageFourth:hover {
+    transition: .2s ease-in;
+    transform: scale(1.01);
+}
+
+.imageThird img {
+    border-radius: 10px;
+    border: 4px solid rgb(48, 48, 48);
+    box-shadow: 0 .5vw 1vw 0 rgba(0, 0, 0, .2);
+}
+
+.imageFourth {
+    position: relative;
+    float: left;
+    width: 22%;
+    padding: 1.5%;
+    transition: .2s ease-out;
+}
+
+.fourths::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imageFourth span {
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    right: 7%;
+    font-size: 2vw;
+}
+
+.imageFourth img {
+    border-radius: 10px;
+    border: 4px solid rgb(48, 48, 48);
+    box-shadow: 0 .5vw 1vw 0 rgba(0, 0, 0, .2);
+}
+
+.readMore {
+    background-color: #ffffff;
+    width: 30%;
+    margin: auto;
+    padding: 1%;
+    color: #f01c24;
+    border-radius: 10px;
+    border: 1px solid rgb(48, 48, 48);
+    font-size: 1vw;
+}
+
+.readMore a:link {
+    color: #f01c24;
+    text-decoration: none;
+}
+
+.readMore a:visited {
+    color: #f01c24;
+    text-decoration: none;
+}
+
+.readMore a:hover {
+    color: #f01c24;
+    text-decoration: underline;
+}
+
+#redLine {
+    border-top: 10px solid #f01c24
+}
+
+.footer {
+    font-family: Helvetica, sans-serif;
+}
+
+#learnMore {
+    background-color: #ffffff;
+    width: 25%;
+    text-align: center;
+    padding: 8px;
+    color: #f01c24;
+    border-radius: 10px;
+    border: 1px solid rgb(48, 48, 48);
+}
+
+#learnMore a:link {
+    color: #f01c24;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#learnMore a:visited {
+    color: #f01c24;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#learnMore a:hover {
+    color: #f01c24;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.careerText {
+    position: relative;
+    float: left;
+    max-width: 50%;
+}
+
+.list {
+    position: relative;
+    float: right;
+    padding-left: 2%;
+}
+
+.list h3 {
+    margin-block-start: 0px;
+}
