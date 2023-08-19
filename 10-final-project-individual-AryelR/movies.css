@@ -1,0 +1,141 @@
+.info {
+    margin-bottom: 8px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.left {
+    float: left;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+img {
+    box-shadow: 0 1vw 2vw 0 rgba(0, 0, 0, .08);
+}
+
+.right {
+    float: right;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.arrows {
+    margin-top: 30px;
+}
+
+.body {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+@media only screen and (min-width: 1100px) {
+    #movieImg {
+        float: left;
+        max-width: 21%;
+    }
+    .sections {
+        float: right;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 20px;
+    }
+    .row {
+        display: flex;
+        padding: 30px;
+    }
+    .sections {
+        margin-left: 10px;
+    }
+    p {
+        margin-bottom: 22px;
+    }
+}
+
+@media only screen and (min-device-width: 1100px) {
+    #movieImg {
+        float: left;
+        max-width: 21%;
+    }
+    .sections {
+        float: right;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 20px;
+    }
+    .sections {
+        margin-left: 10px;
+    }
+    .row {
+        display: flex;
+        padding: 30px;
+    }
+    p {
+        margin-bottom: 22px;
+    }
+}
+
+
+/* mobile */
+
+@media only screen and (max-width: 1000px) {
+    #movieImg {
+        float: none;
+        min-width: 100%;
+    }
+    #movieBanner {
+        margin-bottom: 20px;
+    }
+    .sections {
+        float: none;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+    .row {
+        display: block;
+    }
+    .left {
+        font-size: 64px;
+    }
+    .right {
+        font-size: 64px;
+    }
+    p {
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-device-width: 1000px) {
+    #movieImg {
+        float: none;
+        min-width: 100%;
+    }
+    #movieBanner {
+        margin-bottom: 20px;
+    }
+    .sections {
+        float: none;
+        margin-bottom: 30px;
+        font-size: 24px;
+        width: 95%;
+    }
+    .row {
+        display: block;
+    }
+    .left {
+        font-size: 64px;
+    }
+    .right {
+        font-size: 64px;
+    }
+    p {
+        margin-bottom: 35px;
+    }
+}

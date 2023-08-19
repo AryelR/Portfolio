@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Movies</title>
+    <meta name="author" content="Aryel Rodriguez">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="movies.css">
+    <link rel="icon" href="images/head.png">
+    <script src="movies.js"></script>
+</head>
+
+<body onload="getFilms()">
+    <div class="border ">
+        <div class="header ">
+            <a class="logo " href="index.html ">
+                <a href="index.html "><img src="images/Studio-Ghibli-logo.gif " alt="Logo " style="height:55px "></a>
+            </a>
+            <div class="headerRight ">
+                <a href="movies.html ">Movies</a>
+                <a href="art.html ">Art Gallery</a>
+                <a href="tierList.html ">Tier List</a>
+            </div>
+
+        </div>
+        <div class="body">
+            <img src="" width="100%" id="movieBanner"></img>
+            <div class="row">
+                <img src="" id="movieImg" class="info"></img>
+                <div class="sections">
+                    <div class="info" id="title">
+                        <h1>title</h1>
+                    </div>
+                    <div div class="info" id="description">
+                        desc
+                    </div>
+                    <div div class="info" id="director">
+                        director
+                    </div>
+                    <div div class="info" id="producer">
+                        prod
+                    </div>
+                    <div div class="info" id="release">
+                        release
+                    </div>
+                    <div div class="info" id="runTime">
+                        runtime
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="arrows">
+                <span class="left" onclick="prev()"><</span>
+                <span class="right" onclick="next()">></span>
+                <p>Click on the arrows to look through the movies!</p>
+            </div>
+            <br>
+        </div>
+    </div>
+</body>
+
+</html>

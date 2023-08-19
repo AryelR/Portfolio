@@ -1,0 +1,17 @@
+logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fdisney-microheroes.fandom.com%2Fwiki%2FCategory%3AStudio_Ghibli&psig=AOvVaw0n2oIMYsBFY1C6t4SJkGzL&ust=1638899354987000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKC6_4Hez_QCFQAAAAAdAAAAABAI
+head img: https://www.pngitem.com/middle/hbhmwhh_calcifer-hd-png-
+
+main page imgs:
+https://img.buzzfeed.com/buzzfeed-static/static/2017-08/22/10/asset/buzzfeed-prod-fastlane-01/anigif_sub-buzz-30379-1503413975-9.gif
+https://c.tenor.com/dFRmjNDK9TwAAAAC/ghibli.gif
+https://64.media.tumblr.com/7abccbd1ac5a26b4fdbba7226043caa3/c16615f60c6b5b62-35/s540x810/3d7ba0512f261874d8326825f0bd5ce420a75860.gifv
+
+art imgs:
+https://www.ghibli.jp/info/013344/
+https://www.ghibli.jp/info/013409/
+
+movie imgs: 
+from api
+
+tierlist imgs: 
+https://www.imdb.com/list/ls068907948/
